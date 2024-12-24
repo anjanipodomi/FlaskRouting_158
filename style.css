@@ -1,0 +1,66 @@
+/* CSS untuk semua halaman */
+body {
+    font-family: 'Poppins', sans-serif;  /* Mengubah font menjadi Poppins */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #F8BBD0;  /* Pink Muda */
+}
+
+/* Header */
+header {
+    background-color: #D81B60;  /* Pink Tua */
+    color: white;
+    padding: 1.5rem 0;  /* Menambah padding pada header */
+    font-size: 24px;  /* Ukuran font lebih besar */
+    font-weight: bold;  /* Memberikan ketebalan pada font */
+}
+
+/* Link */
+a {
+    text-decoration: none;
+    color: #D81B60;  /* Pink Tua */
+    font-size: 18px;  /* Ukuran font link lebih besar */
+    font-weight: 500;  /* Memberikan ketebalan pada font link */
+}
+
+a:hover {
+    color: #F8BBD0;  /* Pink Muda saat hover */
+}
+
+/* Tombol */
+button {
+    background-color: #D81B60;  /* Pink Tua */
+    border: none;
+    color: white;
+    padding: 12px 25px;  /* Menambah padding untuk tombol */
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;  /* Ukuran font tombol lebih besar */
+}
+
+button:hover {
+    background-color: #F8BBD0;  /* Pink Muda saat hover */
+}
+
+/* Form */
+form {
+    margin-top: 50px;
+}
+
+input {
+    width: 80%;
+    padding: 12px;  /* Menambah padding pada input */
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;  /* Ukuran font input lebih besar */
+}
+
+/* Error Message */
+p {
+    margin: 10px 0;
+    font-size: 16px;  /* Ukuran font pesan error lebih besar */
+    color: #D81B60;  /* Warna pesan error menjadi pink tua */
+}
